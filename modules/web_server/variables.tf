@@ -1,0 +1,12 @@
+variable "env_prefix" {}
+variable "public_key" {}
+variable "ami" {}
+variable "instance_type" {}
+variable "security_group_web" {}
+variable "subnet01_app" {}
+variable "subnet02_app" {}
+variable "iam_profile" {}
+variable "awsrds_endpoint" {}
+variable "username" {}
+variable "password" {}
+variable "root_password" {}

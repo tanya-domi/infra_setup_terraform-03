@@ -1,1 +1,12 @@
+#local .terraform directory
+.terraform/*
 
+#.tfvars includes sensitive data
+#terraform.tfvars
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+pc-key.pub
+# WE WILL NOT IGNORE .terraform.lock.hcl which the providers version so that all team members will use same provider versions
